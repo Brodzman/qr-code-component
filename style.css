@@ -5,7 +5,11 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
+    background-color: hsl(212, 45%, 89%);
+}
 
+#main {
+    margin: auto;
 }
 
 #main-box {
@@ -13,12 +17,15 @@ body {
     flex-direction: column;
     align-items: center;
     width: fit-content;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 #top-text,
 #bottom-text {
     text-align: center;
-    max-width: 100%;
+    width: 288px;
     word-wrap: break-word;
     box-sizing: border-box;
     font-family: 'Outfit';
@@ -29,20 +36,27 @@ body {
     font-weight: bold;
     line-height: 120%;
     letter-spacing: 0px;
+    padding: 15px;
 }
 
 #bottom-text {
     font-size: 15px;
     line-height: 140%;
     letter-spacing: 0.2px;
-}
-
-#qr-box {
-    border-radius: 20px;
+    font-weight: lighter;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #qr-box img {
+    border-radius: 20px;
     display: block;
     width: 288px;
     height: 288px;
+    padding-bottom: 5px;
+}
+
+.attributes {
+    margin-top: auto;
 }
